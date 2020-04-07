@@ -5,16 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Kristijan Husak",
-            "email": "husakkristijan@gmail.com"
-        },
-        {
-            "name": "Mike Erickson",
-            "email": "codedungeon@gmail.com"
-        },
-        {
-            "name": "Mike Erickson",
-            "email": "mike.erickson@codedungeon.io"
+            "name": "Dan Cooper",
+            "email": "dan.cooper@fusionsoftwareconsulting.co.uk"
         }
     ],
     "require": {
@@ -32,10 +24,10 @@
         },
         "laravel": {
             "providers": [
-                "Kris\\LaravelFormBuilder\\FormBuilderServiceProvider"
+                "Fusion\\LaravelFormBuilder\\FormBuilderServiceProvider"
             ],
             "aliases": {
-                "FormBuilder": "Kris\\LaravelFormBuilder\\Facades\\FormBuilder"
+                "FormBuilder": "Fusion\\LaravelFormBuilder\\Facades\\FormBuilder"
             }
         }
     },
